@@ -1,7 +1,7 @@
 package application;
 
 import chess.ChessPiece;
-
+//Classe User Interface
 public class UI {
 	public static void printBoard(ChessPiece[][] pieces) {
 		for (int i = 0; i < pieces.length; i++) {
@@ -14,7 +14,7 @@ public class UI {
 		System.out.println("  a b c d e f g h");
 
 	}
-
+	// Método auxiliar para imprimir uma peça
 	private static void printPiece(ChessPiece piece) {
 		if (piece == null) {
 			System.out.print("-");
