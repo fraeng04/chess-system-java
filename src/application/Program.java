@@ -12,7 +12,7 @@ import chess.ChessPiece;
 import chess.ChessPosition;
 
 public class Program {
-
+	//jogo de xadrez
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
